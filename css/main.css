@@ -47,8 +47,14 @@ video {
 font-family: 'Roboto', sans-serif;
  */
 
+html {
+  background: black;
+}
+
 body {
   width: 414px;
+  margin: auto;
+  background: white;
   font-family: "Roboto", sans-serif;
 }
 
@@ -57,7 +63,46 @@ body {
 }
 
 nav {
-  margin: 0px 0px;
+  margin: 24px 0px 50px 5px;
+  font-size: 16px;
+}
+
+nav a {
+  margin: 0 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.subhead {
+  font-size: 16px;
+}
+
+dt {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+dd {
+  font-size: 12px;
+}
+
+h1,
+h2,
+p,
+dl,
+a {
+  margin: 0px 0px 0px 10px;
+}
+
+div p {
+  font-size: 16px;
+  margin: 45px 69px 45px 10px;
+}
+
+div a {
+  font-size: 12px;
 }
 
 footer {
