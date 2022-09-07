@@ -81,6 +81,10 @@ h1 {
   padding: 0 0 25px 0;
 }
 
+dl {
+  line-height: 16px;
+}
+
 dt {
   font-size: 12px;
   font-weight: 700;
@@ -88,6 +92,7 @@ dt {
 
 dd {
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -108,12 +113,13 @@ main a {
 }
 
 .button-projects {
-  margin: 0px 150px;
+  text-align: center;
 }
 
 footer {
   background: black;
   color: white;
+  line-height: 16px;
 }
 
 footer h1 {
@@ -122,6 +128,7 @@ footer h1 {
 
 footer p {
   font-size: 12px;
+  margin-bottom: 15px;
 }
 
 footer h2,
