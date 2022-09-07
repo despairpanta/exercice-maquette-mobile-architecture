@@ -73,10 +73,12 @@ nav a {
 
 h1 {
   font-size: 30px;
+  padding: 15px 0;
 }
 
 .subhead {
   font-size: 16px;
+  padding: 0 0 25px 0;
 }
 
 dt {
@@ -93,7 +95,7 @@ h2,
 p,
 dl,
 a {
-  margin: 0px 0px 0px 10px;
+  margin: 0 0 0 10px;
 }
 
 div p {
@@ -101,11 +103,33 @@ div p {
   margin: 45px 69px 45px 10px;
 }
 
-div a {
+main a {
   font-size: 12px;
+}
+
+.button-projects {
+  margin: 0px 150px;
 }
 
 footer {
   background: black;
   color: white;
+}
+
+footer h1 {
+  font-size: 12px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer h2,
+footer a {
+  font-size: 10px;
+}
+
+footer h1 {
+  margin: 25px 0 0 10px;
+  padding: 30px 0 0 0;
 }
